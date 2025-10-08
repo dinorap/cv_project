@@ -1,12 +1,17 @@
 function Skills() {
     return (
         <section className="section">
-            <h2>Kỹ năng chuyên môn</h2>
+            <h2>Chứng chỉ</h2>
             <ul>
-                <li>HTML, CSS, JavaScript, ReactJS, Ant Design</li>
-                <li>NodeJS/ExpressJS và xây dựng API</li>
-                <li>MySQL, tối ưu truy vấn</li>
-                <li>Git/GitHub, làm việc nhóm</li>
+                <li>2024 – Agile Project Management</li>
+                <li>2024 – Project Planning: Putting It All Together</li>
+                <li>2024 – Foundations of Project Management</li>
+            </ul>
+            <h2>Hoạt động</h2>
+            <ul>
+                <li>Thành viên CLB Lập trình, Đại học Phenikaa</li>
+                <li>Tình nguyện viên trong các sự kiện sinh viên</li>
+                <li>Tham gia nhiều hoạt động học thuật & ngoại khóa</li>
             </ul>
         </section>
     );

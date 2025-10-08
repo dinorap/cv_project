@@ -2,9 +2,12 @@ function Education() {
     return (
         <section className="section">
             <h2>Trình độ học vấn</h2>
-            <p><strong>Đại học Phenikaa (2021–2025)</strong></p>
-            <p>Khoa: Công nghệ thông tin | GPA: 3.5/4.0</p>
-            <p>Ngành: Phần mềm ứng dụng | Đang chờ xét bằng</p>
+            <p><strong>Trường Đại học Phenikaa</strong> <span className="muted">2021 - 2025</span></p>
+            <ul>
+                <li>Khoa: Công nghệ thông tin (Phần mềm ứng dụng)</li>
+                <li>GPA: 3.54/4.0</li>
+                <li>Đang đợi xét bằng</li>
+            </ul>
         </section>
     );
 }
