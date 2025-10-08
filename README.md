@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# CV Portfolio - Đinh Minh Phương
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Một CV portfolio hiện đại được xây dựng bằng React.js với thiết kế responsive và animation mượt mà.
 
-## Available Scripts
+## Live Demo
 
-In the project directory, you can run:
+Đã deploy lên Vercel: [https://cv-project-fawn.vercel.app/](https://cv-project-fawn.vercel.app/)
 
-### `npm start`
+## Tính năng
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Thiết kế 2 cột**: Sidebar tối với thông tin cá nhân và nội dung chính bên phải
+- **Responsive**: Tự động điều chỉnh layout trên mobile và tablet
+- **Animation**: Hiệu ứng fade-in và slide-up mượt mà khi load trang
+- **Component-based**: Cấu trúc component rõ ràng, dễ bảo trì
+- **Print-friendly**: Tối ưu cho in ấn
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Công nghệ sử dụng
 
-### `npm test`
+- **Frontend**: React.js, CSS3
+- **Styling**: CSS Grid, Flexbox, CSS Animations
+- **Build Tool**: Create React App
+- **Version Control**: Git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Cấu trúc dự án
 
-### `npm run build`
+```
+src/
+├── components/
+│   ├── About/           # Mục tiêu nghề nghiệp
+│   ├── Education/       # Trình độ học vấn
+│   ├── Projects/        # Kinh nghiệm dự án
+│   ├── Skills/          # Chứng chỉ & Hoạt động
+│   └── Sidebar/         # Thông tin sidebar
+│       ├── SidebarAvatar.jsx
+│       ├── SidebarContact.jsx
+│       ├── SidebarSkills.jsx
+│       └── SidebarAwards.jsx
+├── App.js              # Component chính
+├── App.css             # Styles chính
+└── index.js            # Entry point
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+##  Cài đặt và chạy
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Yêu cầu hệ thống
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Node.js >= 14.0.0
+- npm
 
-### `npm run eject`
+### Cài đặt
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+# Clone repository
+git clone <repository-url>
+cd phuong-cv
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Cài đặt dependencies
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Chạy dự án
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### `npm start`
 
-## Learn More
+Chạy ứng dụng ở chế độ development.
+Mở [http://localhost:3000](http://localhost:3000) để xem trong trình duyệt.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Trang sẽ tự động reload khi bạn thay đổi code.
+Bạn cũng có thể thấy các lỗi lint trong console.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### `npm test`
 
-### Code Splitting
+Khởi chạy test runner ở chế độ interactive watch.
+Xem phần về running tests để biết thêm thông tin.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+#### `npm run build`
 
-### Analyzing the Bundle Size
+Build ứng dụng cho production vào thư mục `build`.
+Nó sẽ bundle React đúng cách ở production mode và tối ưu build để có hiệu suất tốt nhất.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Build được minify và tên file bao gồm hash.
+Ứng dụng của bạn đã sẵn sàng để deploy!
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
